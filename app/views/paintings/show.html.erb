@@ -1,0 +1,4 @@
+<% if @painting.image.attached? %>
+The painting is here.
+<%= image_tag @painting.image, style: "width: 250px; display: block" %>
+<% end %>

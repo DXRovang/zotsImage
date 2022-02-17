@@ -1,0 +1,6 @@
+<%= form_for @painting do |form| %>
+  <h3><%= form.label "Image"%></h3>
+  <%= form.file_field :image%>
+  <div><%= form.submit "Add Painting"%></div> 
+  </div>
+<% end %>
